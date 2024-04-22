@@ -1,6 +1,6 @@
 202403221533
 Status: #idea
-Tags: [[Economics]], [[Politics]]
+Tags: 
 
 # Capitalism
 
