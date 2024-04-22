@@ -7,7 +7,6 @@ Tags: [[Mechanics]]
 
 
 
-
 ___
 # References
 [[📕 Mechanics - Landau & Lifshitz]]
