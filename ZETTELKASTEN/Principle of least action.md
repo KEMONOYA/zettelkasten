@@ -1,6 +1,6 @@
 202403190021
 Status: #idea
-Tags: [[Mechanics]]
+Tags: 
 
 # Principle of Least Action
 
