@@ -1,6 +1,6 @@
 202404222029
 Status: #idea
-Tags:
+Tags: [[Mechanics foundations]]
 
 # Mechanical state completely determined by initial positions and velocities
 
