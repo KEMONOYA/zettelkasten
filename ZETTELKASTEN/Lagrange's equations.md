@@ -1,6 +1,6 @@
 202403230358
 Status: #idea
-Tags: [[Mechanics foundations]]
+Tags:
 
 # Lagrange's equations
 

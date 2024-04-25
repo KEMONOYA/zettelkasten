@@ -1,6 +1,6 @@
 202403190030
 Status: #idea
-Tags: [[Mechanics foundations]]
+Tags:
 
 # Lagrangian
 
