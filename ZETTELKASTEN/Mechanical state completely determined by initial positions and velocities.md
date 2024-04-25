@@ -14,4 +14,4 @@ The above tells us that the motion is completely determined for all future insta
 
 ___
 # References
-[[📕 Mechanics - Landau & Lifshitz]], p.1.
+[[📕 Mechanics - Landau & Lifshitz]], pg.1.

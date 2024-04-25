@@ -16,4 +16,4 @@ Now if the equation of motion in part $B$ contains no instances of $x_A$, which 
 
 ___
 # References
-[[📕 Mechanics - Landau & Lifshitz]], p.4.
+[[📕 Mechanics - Landau & Lifshitz]], pg.4.
