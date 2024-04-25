@@ -14,6 +14,8 @@ which, by linearity of the derivative, expands to
 $$ \left(\frac{\partial L_A}{\partial x_{A}}- \frac{d}{dt} \frac{\partial L_A}{\partial \dot x_{A}}\right) + \left(\frac{\partial L_B}{\partial x_{A}}- \frac{d}{dt} \frac{\partial L_{B}}{\partial \dot x_{A}}\right) = 0.$$
 Now if the equation of motion in part $B$ contains no instances of $x_A$, which pertains to $A$, then the terms in the second bracket above should all vanish, and the equation of motion reduces to just the $L_A$ part, giving us the same equation as when we used only $L_A$ to obtain the equation. On the other hand, if part $B$ actually does contain $x_A$, then we see that the second bracket doesn't reduce to zero, and instead adds something to the $L_A$ part, giving us a different equation that the one we got with $L_A$. This would mean the equation governing the motion of $x_A$ differs when we view $A$ as a closed system of its own, and when we view it as part of a system in which it interacts with no other parts. Evidently, however, these two cases should be the exact same. Hence, the equations of motion of one part among the noninteracting parts cannot include quantities pertaining to the other.
 
+Another way to look at this is to start out with the condition that the equations of motion of each of two noninteracting systems cannot contain quantities pertaining to the other, and notice that this is only possible if the lagrangian of the combination is the sum of the lagrangians of the parts. This is due to additivity of the derivative, which guarantees that we can separate the two  
+
 ___
 # References
 [[📕 Mechanics - Landau & Lifshitz]], pg.4.
