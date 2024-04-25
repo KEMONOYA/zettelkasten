@@ -4,9 +4,9 @@ Tags:
 
 # Differential equation
 
-A differential equation is an equation that relates a function to its derivatives.
+The most enlightening viewpoint for differential equations is the *geometric* perspective. Geometrically, differential equations are equations defined by the phase velocity vector field of a phase space of an evolutionary process (i.e. they are equations that describe the dependence of the phase velocity vector of a phase point on its position).
 
-The concept of a differential equation can be viewed from a geometric persepective however as an equation that defines a direction field in a phase space. The problem of finding solutions to the differential equation then is equivalent to the problem of finding the integral curves of that direction field.
+The study of the evolutionary process then reduces to the study of the curves defined by the phase velocity vector field. In particular, the problem of finding the solutions to a differential equation then reduces to the problem of finding the integral curves of the direction field.
 
 ___
 # References
