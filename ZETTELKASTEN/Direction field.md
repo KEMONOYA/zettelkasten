@@ -4,7 +4,7 @@ Tags:
 
 # Direction field
 
-
+A field that assigns to every point in a given region on the plane a straight line passing through this point. 
 
 
 ___

@@ -4,8 +4,9 @@ Tags:
 
 # Phase velocity vector field
 
-A vector field defined on a phase space of an evolutionary process that specifies how the phase point is moving at each point of the space. 
+A vector field defined on the phase space of an evolutionary process that specifies how the phase point is moving at each position in phase space.
 
+This vector field defines a [[Differential equation]], whose solutions are the [[Integral curve]]s of the field.
 
 ___
 # References
