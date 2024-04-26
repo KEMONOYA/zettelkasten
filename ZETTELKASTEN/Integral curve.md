@@ -4,9 +4,10 @@ Tags:
 
 # Integral curve
 
+An integral curve is a curve that is tangent at each of its points to a vector field (or [[direction field]]). In the context of a [[phase velocity vector field]] or [[direction field]] in a phase space, the integral curves represent the solutions to the [[differential equation]] defined by the vector or direction field. 
 
-
+Side note, the name "integral curve" is motivated by the fact that in certain cases, these curves can be found using the operation of integration.
 
 ___
 # References
-[[📕 Ordinary Differential Equations - V.I. Arnold]]
+[[📕 Ordinary Differential Equations - V.I. Arnold]], pg.16.
