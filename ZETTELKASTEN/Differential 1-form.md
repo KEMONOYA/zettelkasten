@@ -11,7 +11,7 @@ If the curve under consideration is smooth and $\textbf A$ is tangent to it, it 
 
 Every differential 1-form $\omega$ in the $(t,x)$-plane can be written as $a \hspace{0.1cm} dx + b \hspace{0.1cm} dt$, where $a$ and $b$ are functions in the plane.
 
-The purpose of differential forms in general is to define integrands over curves, surfaces, solids and higher-dimensional manifolds in a uni
+The purpose of differential forms in general is to define integrands over curves, surfaces, solids and higher-dimensional manifolds in a unified way. The differential 1-form is the instance of that general concept for curves specifically. That is, differential 1-forms can be integrated over. 
 
 ___
 # References
