@@ -8,7 +8,8 @@ A differential equation is called *autonomous* if it has no explicit dependence 
 
 For instance, in the case of [[Newton's equations]], the equation of motion $\ddot x = F(x,\dot x)$ expressing an isolated mechanical system is autonomous since $F$ is independent of $t$.
 
-A first-order autonomous differential equation $\dot x = v(x)$ has a general solution given by [[Barrow's formula]] ()
+A first-order autonomous differential equation $\dot x = v(x)$ has a general solution given by [[Barrow's formula]] (after converting the equation to an appropriate form exploiting the independence on t, so that the formula applies):
+$$t - t_{0}= \int^x_{x_0} \frac{d\xi}{v(\xi)}.$$
 
 ___
 # References
