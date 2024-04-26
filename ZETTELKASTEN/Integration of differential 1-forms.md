@@ -1,6 +1,6 @@
 202404262115
 Status: #idea
-Tags:
+Tags: [[Differential geometry]]
 
 # Integration of differential 1-forms
 
