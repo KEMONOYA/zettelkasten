@@ -14,7 +14,7 @@ In other words, the integral of $\omega$ is the limit of the integral sums $\sum
 We end with two useful propositions.
 
 1. The integral of a differential 1-form is independent of the parameterization chosen for it. This follows from the theorem of change of variables (substitution) for definite integrals.
-2. The integral of the differential 1-form $f(x)dx$ over a curve for which $x$ can be taken as a parameter coincides with the usual definite integral for the function $f$.
+2. The integral of the differential 1-form $f(x)dx$ over a curve (*any* curve) for which $x$ can be taken as a parameter coincides with the usual definite integral for the function $f$.
 
 ___
 # References
