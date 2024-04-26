@@ -7,7 +7,7 @@ Tags: [[Differential geometry]]
 Consider a curve in the $(t,x)$-plane, and let $\textbf A$ be a velocity vector attached at some point on the curve, describing how the curve is changing. A *differential 1-form* $\omega$ is defined to be a linear real-valued function of this vector $\textbf A$. 
 
 Two examples of differential 1-forms on this curve are $dt(\textbf A)$ and $dx(\textbf A)$, defined as the projections of the vector on the $t$ and $x$ axes respectively, and they describe the rate of change of each coordinate under the motion $\textbf A$.
-A notable property of these forms is that if $\textbf A$ is tangent to a smooth function $\varphi(t)$, then clearly the ratio $dx(A)/dt(A)$ coincides with the derivative of the curve $d\varphi/dt$ at the point of tangency.
+A notable property of these forms is that if $\textbf A$ is tangent to a smooth function $x = \varphi(t)$, then clearly the ratio $dx(A)/dt(A)$ coincides with the derivative of the curve $dx/dt$ at the point of tangency. They give the same slope.
 
 Every differential 1-form $\omega$ in the $(t,x)$-plane can be written as $a \hspace{0.1cm} dx + b \hspace{0.1cm} dt$, where $a$ and $b$ are functions in the plane.
 
