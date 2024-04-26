@@ -11,6 +11,9 @@ $$\int_{\Gamma} \omega = \int_I \omega(\gamma \prime) du, \hspace{0.3cm}\text{ w
 In other words, the integral of $\omega$ is the limit of the integral sums $\sum \omega(\textbf A_i)$, where $\textbf A_{i} = \gamma \prime(u_i) \Delta_i$, and $\Delta_i$ is the difference $u_{i+1} - u_i$ (see the figure below). That is, each $\textbf A_i$ is the tangent derivative vector at the point corresponding to $u_i$ on the curve, scaled by $\Delta_i$ so that it's *almost* the same as the chord to the next point on the curve corresponding to $u_{i+1}$. As we take the limit and increase the number of divisions of the $u$-axis, and correspondingly the curve, the $\textbf A_i$ get closer and closer to being the chords connecting adjacent points, and fitting the curve perfectly, and so the sum of their 1-form values approaches the integral of the 1-form over the curve.
 ![[diff_1-form_integration.png]]
 
+We end with two useful propositions.
+
+1. The integral of a differential 1-form is independent of the parameterization chosen for it. This follows from the theorem of change of variables (substitution) 
 
 ___
 # References
