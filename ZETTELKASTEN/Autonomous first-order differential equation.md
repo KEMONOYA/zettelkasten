@@ -9,4 +9,4 @@ Tags:
 
 ___
 # References
-[[📕 Ordinary Differential Equations - V.I. Arnold]]
+[[📕 Ordinary Differential Equations - V.I. Arnold]], pg.19.
