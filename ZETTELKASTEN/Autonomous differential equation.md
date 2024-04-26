@@ -1,6 +1,6 @@
 202404261900
 Status: #idea
-Tags:
+Tags: [[Differential equations]]
 
 # Autonomous differential equation
 

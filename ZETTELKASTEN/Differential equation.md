@@ -1,6 +1,6 @@
 202404252027
 Status: #idea
-Tags:
+Tags: [[Differential equations]]
 
 # Differential equation
 

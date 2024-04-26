@@ -1,6 +1,6 @@
 202404261902
 Status: #idea
-Tags:
+Tags: [[Differential equations]]
 
 # Barrow's formula
 

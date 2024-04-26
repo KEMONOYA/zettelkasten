@@ -1,6 +1,6 @@
 202404232123
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Additivity of the lagrangian
 

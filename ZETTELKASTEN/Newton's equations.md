@@ -1,6 +1,6 @@
 202404222240
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Newton's equations
 

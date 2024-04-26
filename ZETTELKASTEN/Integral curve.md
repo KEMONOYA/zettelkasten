@@ -1,6 +1,6 @@
 202404252135
 Status: #idea
-Tags:
+Tags: [[Differential equations]]
 
 # Integral curve
 

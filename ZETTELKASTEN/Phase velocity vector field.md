@@ -1,6 +1,6 @@
 202404252131
 Status: #idea
-Tags:
+Tags: [[Differential equations]]
 
 # Phase velocity vector field
 

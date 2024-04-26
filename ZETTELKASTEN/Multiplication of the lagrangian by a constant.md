@@ -1,6 +1,6 @@
  202404232234
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Multiplication of the lagrangian by a constant
 

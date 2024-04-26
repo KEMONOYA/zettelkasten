@@ -1,6 +1,6 @@
 202404222333
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Conservative force
 

@@ -1,6 +1,6 @@
 202404252031
 Status: #idea
-Tags:
+Tags: [[Differential equations]]
 
 # Direction field
 
