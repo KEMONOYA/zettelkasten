@@ -4,7 +4,7 @@ Tags:
 
 # Inertial frame
 
-An inertial frame is a frame of reference in which space is homogeneous and isotropic, and time is homogeneoe
+An inertial frame is a frame of reference in which space is homogeneous and isotropic, and time is homogen
 
 
 ___
