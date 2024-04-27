@@ -8,7 +8,12 @@ Often we wish to calculate the quantity $v^2$ for a particle in a mechanical sys
 
 Observe that $v^{2}= ({dl}/{dt})^{2}= (dl)^2/(dt)^2$, where $dl$ is an infinitesimal displacement arc length. So if we find $dl^2$, we can just divide it by $dt^2$ to get $v^2$. This is especially handy because infinitesimal displacement elements can always be treated as straight lines, even if their finite counterparts would be curved.
 
+So for example:
+- in Cartesian coordinates, $dl^{2}= dx^{2}+ dy^{2}+ dz^2$.
+- in cylindrical coordinates, $dl^{2}= dr^{2}+ r^2d\varphi^{2} + dz^2$.
+- in spherical coordinates, $dl^{2}=dr^2+r^2d\theta^2+r^2\sin()$
 
+![[trick_cylindrical.png]]
 
 ___
 # References
