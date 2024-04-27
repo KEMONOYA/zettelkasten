@@ -1,6 +1,6 @@
 202404271328
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Inertial frame
 

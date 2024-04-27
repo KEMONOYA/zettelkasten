@@ -11,7 +11,7 @@ Consider a particle moving freely (i.e. interacts with nothing) in an inertial f
 
 Since the lagrangian doesn't depend on $\textbf r$, [[Lagrange's equations]] take the form
 $$\frac{d}{dt} \frac{\partial L}{\partial \textbf v} = 0.$$
-This then means that $\partial \frac{L\partial \textbf v}= 0$ 
+This then means that $\partial L/\partial \textbf v= \text{constant}$, as time goes on. But since $\partial L /\partial \textbf v$ is a function of the velocity only, this must mean that the velocity itself is constant as time goes on.   
 ___
 # References
 [[📕 Mechanics - Landau & Lifshitz]], pg.5.
