@@ -10,7 +10,7 @@ This may also be stated by saying that the accelerations at that initial instant
 
 We conclude from this that, concisely, **the acceleration is a function of position and velocity** (and only implicitly a function of time). This is expressed, for instance, in [[Newton's equations]]: $F(x,\dot x, t) = a$.
 
-The above tells us that the motion is completely determined for all future instants, and can be calculated *in principle*. However, to actually reach an expression for the path $x(t)$ and calculate them, the equations of motion in the form $a = F(x, \dot x, t)$ are not sufficient, instead one must integrate them with respect to time. 
+The above tells us that the motion is completely determined for all future instants, and can be calculated *in principle*. However, to actually reach an expression for the path $x(t)$ and calculate them, the equations of motion in the form $a = F(x, \dot x, t)$ are not sufficient, instead one must integrate them with respect to time, which is often the ha. 
 
 ___
 # References
