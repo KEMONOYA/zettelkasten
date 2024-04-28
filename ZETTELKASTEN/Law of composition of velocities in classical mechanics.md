@@ -1,6 +1,6 @@
 202404281804
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Law of composition of velocities in classical mechanics
 
