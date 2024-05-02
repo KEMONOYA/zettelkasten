@@ -1,6 +1,6 @@
 202405021509
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Conserved quantity
 
