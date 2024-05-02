@@ -1,6 +1,6 @@
 202405022124
 Status: #idea
-Tags:
+Tags: [[Mechanics]]
 
 # Kinetic energy
 
