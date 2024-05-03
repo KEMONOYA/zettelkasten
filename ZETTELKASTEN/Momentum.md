@@ -4,7 +4,7 @@ Tags: [[Mechanics]]
 
 # Momentum
 
-
+A [[conserved quantity]] in a closed mechanical system.
 
 
 ___
