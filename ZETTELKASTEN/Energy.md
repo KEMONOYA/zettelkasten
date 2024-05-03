@@ -12,8 +12,13 @@ It comes in various forms (kinetic, gravitational potential, heat, electrical, n
 
 
 Conservation of energy (which also practically provides the definition of energy itself) is derived from the fundamental [[homogeneity of time]] in [[inertial frame]]s. By virtue of this homogeneity, the [[lagrangian]] of a closed system does not depend explicitly on time. As a result, the total time derivative of the lagrangian is
-$$\frac{dL}{dt} = \sum f$$
-
+$$\frac{dL}{dt} = \sum \frac{\partial L}{\partial x_{i}}\dot x_{i}+ \sum \frac{\partial L}{\partial \dot x_{i}} \ddot x_i.$$
+Substituting $\partial L/\partial x_{i} = ({d}/{dt}) \partial L /\partial \dot x_i$, we get
+$$\frac{dL}{dt}= \sum \frac{d}{dt} \frac{\partial L}{\partial \dot x_{i}} \dot x_{i}+ \sum\limits \frac{\partial L}{\partial \dot x_{i}}\ddot x_{i}= \frac{d}{dt}\sum\limits\frac{\partial L}{\partial \dot x_{i}}\dot x_i,$$
+which finally gives us
+$$\frac{d}{dt}\left(L-\frac{\partial L}{\partial \dot x_{i}}\dot x_{i}\right) = 0,$$
+so the quantity
+$E \equiv L - \frac{\partial L}{\partial \dot x_{i}}$    
 ___
 # References
 [[📕 Mechanics - Landau & Lifshitz]], pg.14.
