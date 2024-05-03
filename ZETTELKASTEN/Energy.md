@@ -20,7 +20,7 @@ which finally gives us
 $$\frac{d}{dt}\left(\sum\limits\frac{\partial L}{\partial \dot x_{i}}\dot x_{i}-L\right) = 0,$$
 so the quantity
 $$E \equiv \sum\limits\frac{\partial L}{\partial \dot x_{i}}\dot x_{i}-L=\text{constant.}$$
-This quantity $E$ is the *energy* of the system. Substituting in $L = T-U$, the first term above becomes $\sum\limits (\partial T /\partial \dot x_{i}) \dot x_i$ and using [[Euler's homogeneous function theorem]] on that term above, we see that 
+This quantity $E$ is the *energy* of the system. The additivity of the energy then follows directly from the additivity of the lagrangian for noninteracting parts, since $E$ is a linear function of $L$. Substituting in $L = T-U$, the first term above becomes $\sum\limits (\partial T /\partial \dot x_{i}) \dot x_i$ and using [[Euler's homogeneous function theorem]] on that term above, we see that 
 $$E = 2T+U-T=T+U.$$
 So the energy is the sum of two quite different terms, a function of the velocities and a function of coordinates.
 
