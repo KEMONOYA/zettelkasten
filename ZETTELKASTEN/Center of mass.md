@@ -13,7 +13,7 @@ Similarly, the velocity of the center of mass is written as
 $$\textbf V = \frac{\sum\limits m_{a}\textbf v_a}{\sum\limits m_{a}}= \frac{\textbf P}{\sum\limits m_a}.$$
 We see here that the relation between the velocity of the system as a whole and its momentum is similar to that for a single particle of mass $\mu = \sum\limits m_a$. This result expresses the *additivity of mass*.
 
-Additionally, we can see that the law of conservation of [[momentum]] is equivalent to stating that the center of mass of the system moves with uniform velocity in a closed system.
+Additionally, from this, we can see that the law of conservation of [[momentum]] is equivalent to stating that the center of mass of the system moves with uniform velocity in a closed system.
 
 ___
 # References
