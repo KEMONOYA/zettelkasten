@@ -12,7 +12,7 @@ Pictorially, a rectification can be thought of as smoothly bending or stretching
 
 A smooth direction field is always *locally* rectifiable. However, that need not extend to a global level, the whole space. Consider the following example:
 
-
+ON HOLD UNTIL I READ THE REST OF CHAPTER 1, I THINK IT'S NEEDED
 
 ___
 # References
