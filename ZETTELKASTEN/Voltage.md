@@ -16,6 +16,8 @@ As we track the potential energy at points through a *load* (resistor, lamp, etc
 
 ![[voltage_drop.png]]
 
+There is, to a good approximation, no loss in the potential energy of an electron when it transfers from one point of a conductor (wire) to another point of the same conductor. Voltage drop only happens across a load. In other words, the voltage between two points of the same conductor is zero.
+
 ___
 # References
 [[📕 Practical Electronics for Inventors - Scherz & Monk]], pg.9.
