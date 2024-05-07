@@ -9,3 +9,4 @@ Tags: [[Electronics]]
 
 ___
 # References
+[[📕 Practical Electronics for Inventors - Scherz & Monk]], pg.9.
