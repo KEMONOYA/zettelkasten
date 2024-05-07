@@ -1,6 +1,6 @@
 202405072249
 Status: #idea
-Tags: [[Electronics]]
+Tags: 
 
 # Potential energy at a point of a circuit
 
