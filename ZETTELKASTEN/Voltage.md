@@ -4,7 +4,7 @@ Tags: [[Electronics]]
 
 # Voltage
 
-*Voltage* between two points of a circuit is defined as the potential energy needed to transfer a unit charge from the first point to the second. Or equivalently, the potential energy lost in transfering a unit charge between the two points. Mathematically, this means
+*Voltage* between two points of a circuit is defined as the potential energy needed to transfer a unit charge from the first point to the second. Or equivalently, the potential energy lost in transferring a unit charge between the two points. Mathematically, this means
 $$\Delta V = \frac{\Delta U}{q} \hspace{0.2cm}\text{ or }\hspace{0.2cm}V_{AB}=V_{A}-V_{B}=\frac{U_{A}-U_{B}}{q},$$
 where $U$ is the [[potential energy at a point of a circuit]], direction of current is assumed to be the conventional (Franklin) direction and test charges $q$ are assumed positive.
 
