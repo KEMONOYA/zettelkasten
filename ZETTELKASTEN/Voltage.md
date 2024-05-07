@@ -4,7 +4,7 @@ Tags: [[Electronics]]
 
 # Voltage
 
-
+*Voltage* between two points of a circuit is defined as the difference in potential energy between two points of a circuit.
 
 
 ___
