@@ -4,7 +4,10 @@ Tags: [[Electronics]]
 
 # Voltage
 
-*Voltage* between two points of a circuit is defined as the difference in potential energy between two points of a circuit.
+*Voltage* between two points of a circuit is defined as the energy needed to transfer a unit charge from the first point to the second. Mathematically, this means
+$$\Delta V = \frac{\Delta U}{q} \hspace{0.2cm}\text{ or }\hspace{0.2cm}V_{B}-V_{A}=\frac{U_{B}-U_{A}}{q},$$
+where $U$ is the [[potential energy at a point of a circuit]].
+
 
 
 ___
