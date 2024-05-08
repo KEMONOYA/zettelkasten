@@ -20,4 +20,4 @@ There is, to a good approximation, no loss in the potential energy of an electro
 
 ___
 # References
-[[📕 Practical Electronics for Inventors - Scherz & Monk]], pg.9.
+[[📕 Practical Electronics for Inventors - Scherz & Monk]], pgs. 9-14.
