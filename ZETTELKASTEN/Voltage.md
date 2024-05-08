@@ -1,6 +1,6 @@
 202405072108
 Status: #idea
-Tags: [[Electronics]]
+Tags: [[Circuit analysis]]
 
 # Voltage
 

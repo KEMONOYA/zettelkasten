@@ -1,6 +1,6 @@
 202405072257
 Status: #idea
-Tags: [[Electronics]]
+Tags: [[Circuit analysis]]
 
 # Electromotive force
 
