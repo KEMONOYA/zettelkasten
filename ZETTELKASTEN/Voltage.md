@@ -6,7 +6,7 @@ Tags: [[Circuit analysis]]
 
 *Voltage* between two points of a circuit is defined as the potential energy needed to transfer a unit charge from the first point to the second. Or equivalently, the potential energy lost in transferring a unit charge between the two points. Mathematically, this means
 $$\Delta V = \frac{\Delta U}{q} \hspace{0.2cm}\text{ or }\hspace{0.2cm}V_{AB}=V_{A}-V_{B}=\frac{U_{A}-U_{B}}{q},$$
-where $U$ is the [[potential energy at a point of a conductor]], direction of current is assumed to be the conventional direction and test charges $q$ are assumed positive. This formula is read as
+where $U$ is the [[potential energy at a point of a conductor]], direction of current is assumed to be the conventional direction and test charges $q$ are assumed positive. It is measured in $\text{Joule}/\text{Coulomb}$, more commonly named a $\text{Volt}$. The formula above is read as
 $$\text{voltage drop from A to B} = \frac{\text{energy lost in transferring charge } q \text{ from A to B}}{\text{charge }q}.$$
 
 A voltage must exist between two points of a circuit to get electrical [[current]] to flow between them. In other words, when a voltage exists between two terminals of a conductor (such as a wire), an *[[electromotive force]]* (EMF) is generated which pushes the electrons along and gives rise to the current. Thinking of EMFs is a more practical way to visualize voltages than using the definition given above.
