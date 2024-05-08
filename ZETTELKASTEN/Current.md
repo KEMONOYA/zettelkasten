@@ -4,7 +4,7 @@ Tags:
 
 # Current
 
-
+The *current* is defined to be the total charge passing through an area $\Delta Q$ of a conductor in the time $\Delta t$.
 
 
 ___
