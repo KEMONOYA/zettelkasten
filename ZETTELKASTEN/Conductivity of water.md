@@ -19,9 +19,9 @@ The salt in saltwater dissolves (ionizes) into many free ions, making saltwater 
 Sugar molecules have covalent bonds, not ionic ones, so no free ions are produced from the presence of sugar. Hence, much like distilled water, sugar water is not conductive.
 
 
-The video in the References section demonstrates the proportion between the conductivities of all these cases of water. Below is a table containing two examples of the ones above, with some comments on each.
+The video in the References section demonstrates the proportion between the conductivities of all these cases of water. Below is a table containing two examples of the ones above, with some comments on each. Notice the proportion between the conductivity (or inversely, resistivity) in the case of pure versus salt water.
 
-
+![[water_conductivity.png]]
 
 ___
 # References
