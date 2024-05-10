@@ -13,6 +13,8 @@ Materials to which Ohm's law applies are called *Ohmic* materials, and they are 
 Nonohmic materials have resistances that vary with voltages, such as diodes, whose resistance is zero when voltage is positive and very high when voltage is flipped to negative. Ohm's law does not apply here.
 
 ![[ohmic_materials.png]]
+It is important
+
 
 ___
 # References
