@@ -6,7 +6,7 @@ Tags: [[Electricity]]
 
 *Resistivity* is a measure of how much the material in question impedes current, how "bad" the material is at passing current through it. It is an intrinsic property of the material itself, and does not depend on the dimensions (length or area) of the material sample we choose to use. It is defined by the formula
 $$\rho \equiv R\frac{A}{L},$$
-where $A$ is the area of the cross-section of the material, $L$ is the length of the sample, and $R$ is the overall [[resistance]] as measured across the length. 
+where $A$ is the area of the cross-section of the material, $L$ is the length of the sample, and $R$ is the overall [[resistance]] as measured across the length. Resistivity is measured in units of $\Omega \text{m}$.
 
 The above definition may seem to contradict the statement made that the resistivity is independent of the dimensions of the sample, but it does not. The resistance is inversely proportional to the area of the sample (larger area allows easier electron flow, so less resistance), and length of the sample is directly proportion to the resistance (longer sample means more lattices, more collisions, more resistance). Hence any change in the length or area is cancelled out by the corresponding change in resistance, leaving the resistivity constant.
 
