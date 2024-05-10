@@ -14,6 +14,11 @@ Furthermore, the above definition is more typically used to find the resistance 
 $$R = \rho\frac{L}{A}.$$
 This formula expresses the fact that $R$ is proportional to $L$, and inversely so to $A$, with a constant of proportionality $\rho$.
 
+
+See below for a list of resistivity values for some common materials.
+
+![[resistivity_table.png]]
+
 ___
 # References
 [[📕 Practical Electronics for Inventors - Scherz & Monk]], pg.25.

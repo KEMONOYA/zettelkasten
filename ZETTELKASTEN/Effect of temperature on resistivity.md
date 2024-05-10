@@ -8,7 +8,7 @@ Tags: [[Electricity]]
 
 Within a certain temperature range, most metals' resistivity $\rho$ at a temperature $T$ is given by:
 $$\rho = \rho_0[1+\alpha(T-T_0)],$$
-where $\rho_0$ is a reference resistivity at temperature $T_0$, and $\alpha$ is the *temperature coefficient of resistivity* measured in units of ${1}/{^o}\text{C}$, and it's also an intrinsic property constant for eac
+where $\rho_0$ is a reference resistivity at temperature $T_0$, and $\alpha$ is the *temperature coefficient of resistivity* measured in units of ${1}/{^o}\text{C}$, and it's also an intrinsic constant of the material itself.
 
 ___
 # References

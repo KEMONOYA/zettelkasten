@@ -9,6 +9,9 @@ $$\sigma \equiv \frac{1}{\rho}.$$
 Conductivity is measured in units of *siemens* $\text{S} = (\Omega \text{m})^{-1}$.
 
 
+See below for a list of conductivity values for some common materials.
+
+![[resistivity_table.png]]
 
 ___
 # References
