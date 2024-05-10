@@ -8,6 +8,8 @@ Tags: [[Electricity]]
 $$\sigma \equiv \frac{1}{\rho}.$$
 Conductivity is measured in units of *siemens* $\text{S} = (\Omega \text{m})^{-1}$.
 
+
+
 ___
 # References
 [[📕 Practical Electronics for Inventors - Scherz & Monk]], pg.25.
