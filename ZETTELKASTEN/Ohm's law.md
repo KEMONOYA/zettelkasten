@@ -4,7 +4,7 @@ Tags: [[Circuit analysis]]
 
 # Ohm's law
 
-*Ohm's law* is an empirical statement about some materials and their resistivity. It is of the form
+*Ohm's law* is an empirical statement about some materials and their resistance. It is of the form
 $$R = V/I,$$
 that is, it states that the [[resistance]] of the (Ohmic) material is the ratio of the applied [[voltage]] and the [[current]] that voltage draws.
 
