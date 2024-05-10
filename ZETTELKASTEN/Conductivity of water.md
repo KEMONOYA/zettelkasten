@@ -13,6 +13,14 @@ Distilled (pure) water is actually a very good *insulator* of electricity. This 
 Unlike distilled water, tap water may have some impurities (which ionize in water) mixed in, though they vary in number. These impurities give rise to conductivity, so tap water does not function as an insulator, but its conductivity varies depending on the amount of impurities. For this reason, tap water can potentially be a serious shock hazard if it happens to have a high impurity count.
 
 ###### Saltwater
+The salt in saltwater dissolves (ionizes) into many free ions, making saltwater a lot more conductive than the previous two cases.
+
+###### Sugarwater
+Sugar molecules have covalent bonds, not ionic ones, so no free ions are produced from the presence of sugar. Hence, much like distilled water, sugar water is not conductive.
+
+
+The video in the References section demonstrates the proportion between the conductivities of all these cases of water. Below is a table containing two examples of the ones above, with some comments on each.
+
 
 
 ___
