@@ -13,3 +13,4 @@ where the sum is over the components, and the powers on both sides of the equati
 ___
 # References
 [[📕 Practical Electronics for Inventors - Scherz & Monk]], pg.33.
+[💬 explain conservation of power in a circuit to me - ChatGPT](https://chat.openai.com/share/b8c022fd-08e6-44d4-931c-4db0dd951ed0)
