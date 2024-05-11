@@ -4,8 +4,7 @@ Tags: [[Circuit analysis]]
 
 # Conservation of power in circuits
 
-As a consequence of the law of conservation of [[energy]], the power (loss) in the circuit is conserved (recall that power is defined as the work, or energy transferred, per unit time). That is, the total power loss in the circuit is constant with time and is equal to the sum of the power loss in the individual components in the circuit.
-
+The power in the circuit is conserved. That is, the total power provided by the source (eg. battery) in the circuit is equal to the sum of the power lost in each of the components in the circuit, given by the [[generalized power law]] for each. 
 
 ___
 # References
