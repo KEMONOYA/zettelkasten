@@ -10,7 +10,7 @@ This follows from the fact that the ratio between the times is a power of the ra
 $$\frac{t^{\prime}}{t} = \left(\frac{l^{\prime}}{l}\right)^{1-\frac{1}{2}k},$$
 where $k$ is the degree of homogeneity of $U$. 
 
-Following the above example, if we know a path $l$ is half-covered by a particle in 3/4 of the total time $t$, then if we apply the above relation to only that half portion of the path, we see that the time taken to cover that half-path after scaling equals $7^{1-\frac{1}{2}k}\cdot\frac{3}{4}t$, where $t$ is the time taken to cover the original full path. Similarly, the full path after scaling is covered in $7^{1-\frac{1}{2}k}\cdot t$. Hence, we see that the proportion of the time taken to cover half the path over the time to taken to cover all of it is the same both before and after scaling, both $\frac{3}{4}$.
+Following the above example, if we know a path $l$ is half-covered by a particle in 3/4 of the total time $t$, then if we apply the above relation to only that half portion of the path, we see that the time taken to cover that half-path after scaling (by, say, 7) equals $7^{1-\frac{1}{2}k}\cdot\frac{3}{4}t$, where $t$ is the time taken to cover the original full path. Similarly, the full path after scaling is covered in $7^{1-\frac{1}{2}k}\cdot t$. Hence, we see that the proportion of the time taken to cover half the path over the time to taken to cover all of it is the same both before and after scaling, both $\frac{3}{4}$. So in both cases, half the path is covered in 3/4 times the time of the full path. This is what we mean by conservation of proportions.
 
 ___
 # References
