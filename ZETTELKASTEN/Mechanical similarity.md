@@ -6,7 +6,7 @@ Tags: [[Mechanics]]
 
 Mechanical similarity is a technique that applies to some mechanical systems, using which we can make inferences about the behavior of the system without even integrating the equations of motion. It is based on the fact that the equations of motion are unaffected under [[multiplication of the lagrangian by a constant]].
 
-Namely, mechanical similarity applies in systems where the potential energy $U$ is a homogeneous function. In such systems, it allows us to **determine *ratios between the mechanical quantites* (time taken, momentum, energy, etc.) of two paths in the system that are geometrically similar but different in size, *as powers of the ratio between the lengths* *of the two paths***. So for instance, in a system where a particle revolves around the origin in a circle in a fixed plane, mechanical similarity can be used to determine
+Namely, mechanical similarity applies in systems where the [[potential energy]] $U$ is a homogeneous function. In such systems, it allows us to **determine *ratios between the mechanical quantites* (time taken, momentum, energy, etc.) of two paths in the system that are geometrically similar but different in size, *as powers of the ratio between the lengths* *of the two paths***. So for instance, in a system where a particle revolves around the origin in a circle in a fixed plane, mechanical similarity can be used to determine
 - a ratio between the time taken for a particle to revolve a circle of radius $r=1$ and another of radius $r=2$
 - a ratio between the angular momenta of those two particles, [at corresponding points on their paths, at corresponding times](obsidian://open?vault=Vaults&file=Monologue%2FZETTELKASTEN%2FConservation%20of%20proportions%20under%20scaling%20paths%20of%20homogeneous%20potentials)
 - a ratio between the linear momenta of the particles
@@ -27,9 +27,9 @@ $$\frac{v^{\prime}}{v}=\left(\frac{l^{\prime}}{l}\right)^{\frac{1}{2}k},\hspace{
 
 With all this established, we can make some important inferences.
 
-- In small oscillation, the potential energy $U$ is a quadratic function of the coordinates (i.e. $k=2$), so from the above relation between time and linear dimensions, the period of small oscillations is independent of their amplitudes.
+- In small oscillations, the potential energy $U$ is a quadratic function of the coordinates (i.e. $k=2$), so from the above relation between time and linear dimensions, the period of small oscillations is independent of their amplitudes.
 - In uniform fields of force, the potential energy is a linear function of the coordinates (i.e. $k=1$). So it follows that, in free fall under gravity for example, the time taken is proportional to the square root of the initial height above the ground.
-- In the Newtonian attraction of two masses, or the Coulomb interactions of two charges, the potential energy is inversely proportion to the distance apart (i.e. $k=-1$). Therefore, we find that $t^{\prime}/t = (l^\prime/l)^{3/2}$. From this, we can state that the square of time of revolution is proportional to the cube of the size of the orbit. This is *Kepler's third law.*
+- In the Newtonian attraction of two masses, or the Coulomb interactions of two charges, the potential energy is inversely proportion to the distance apart (i.e. $k=-1$). Therefore, we find that $t^{\prime}/t = (l^\prime/l)^{3/2}$. From this, we can state that the square of time of revolution is proportional to the cube of the size of the orbit. This is *[[Kepler's third law]].*
 
 ___
 # References
