@@ -18,7 +18,9 @@ The main advantage of this tool is not, however, to use it for numerical computa
 
 Assume $U$ is a homogeneous function of degree $k$. If we scale the linear dimensions by $\alpha$,
 $$\textbf r_{a}\to \alpha \textbf r_a,$$
-then the potential $U$ is scaled by $\alpha^k$. 
+then the potential $U$ is scaled by $\alpha^k$. If we also scale the time by $\beta$, the velocity $d\textbf r_a/dt$ is then scaled by $\alpha/\beta$, and the kinetic energy by $(\alpha/\beta)^2$. If we pick $\beta$ such that $\alpha^{k} = (\alpha/\beta)^2$, i.e. $\beta = \alpha^{1-\frac{1}{2}k}$, then $a^k$ can be pulled out of both $T$ and $U$ in the lagrangian, and so the lagrangian after scaling is just the original lagrangian multiplied by a constant, and hence our transformation has no effect on the equations of motion.
+
+Scaling the coordinates like we did above corresponds to scaling the paths of motion, producing geometrically similar paths of the same shape but varying sizes. Thus we see that when $U$ is a homogeneous function, the equations of motion permit a series of geometrically similar paths, and the ratio between the times taken to cover .
 
 ___
 # References
