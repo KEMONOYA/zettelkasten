@@ -4,13 +4,13 @@ Tags: [[Mechanics]]
 
 # Conservation of proportions under scaling paths of homogeneous potentials
 
-When a path in a system whose potential energy $U$ is a homogeneous function is scaled, and the time is scaled with it such that [[Mechanical similarity]] applies, the proportions of $\text{"portion of total time elapsed}:\text{portion of total distance covered"}$ between the two paths (before scaling and after) are the same. That is to say, if for example half the complete path is covered in 3/4 the total time taken to cover that full path in the unscaled case, then after scaling, again half the new scaled path is covered in 3/4 the total time taken to cover that new path.
+When a path in a system whose potential energy $U$ is a homogeneous function is scaled, and the time is scaled with it such that [[Mechanical similarity]] applies, the proportions of $\text{"portion of total time elapsed}:\text{portion of total distance covered"}$ in the two paths (before scaling and after) are the same. That is to say, if for example half the complete path is covered in 3/4 the total time taken to cover that full path in the unscaled case, then after scaling, again half the new scaled path is covered in 3/4 the total time taken to cover that new path.
 
-This follows from the fact that the ratio between the time is a power of the ratio between the linear dimensions, when the two paths are mechanically similar:
+This follows from the fact that the ratio between the times is a power of the ratio between the linear dimensions, when the two paths are mechanically similar:
 $$\frac{t^{\prime}}{t} = \left(\frac{l^{\prime}}{l}\right)^{1-\frac{1}{2}k},$$
 where $k$ is the degree of homogeneity of $U$. 
 
-Following the above example, if we know a path $l$ is half-covered by a particle in 3/4 of the total time $t$, then if we apply the above relation to only that half portion of the path, we see that the time taken to cover that half-path after scaling equals $\fra$
+Following the above example, if we know a path $l$ is half-covered by a particle in 3/4 of the total time $t$, then if we apply the above relation to only that half portion of the path, we see that the time taken to cover that half-path after scaling equals $7^{1-\frac{1}{2}k}\cdot\frac{3}{4}t$, where $t$ is the time taken to cover the original full path. Similarly, the full path after scaling is covered in $7^{1-\frac{1}{2}k}\cdot t$. Hence, we see that the proportion of the time taken to cover half the path over the time to taken to cover all of it is the same both before and after scaling, both $\frac{3}{4}$.
 
 ___
 # References
