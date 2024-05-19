@@ -27,7 +27,9 @@ $$\frac{v^{\prime}}{v}=\left(\frac{l^{\prime}}{l}\right)^{\frac{1}{2}k},\hspace{
 
 With all this established, we can make some important inferences.
 
-- In small oscillation, the potential energy $U$ is 
+- In small oscillation, the potential energy $U$ is a quadratic function of the coordinates (i.e. $k=2$), so from the above relation between time and linear dimensions, the period of small oscillations is independent of their amplitudes.
+- In uniform fields of force, the potential energy is a linear function of the coordinates (i.e. $k=1$). So it follows that, in free fall under gravity for example, the time taken is proportional to the square root of the initial height above the ground.
+- In the Newtonian attraction of two masses, or the Coulomb interactions of two charges, the potential energy is inversely proportion to the distance apart (i.e. $k=-1$). Therefore, we find that $t^{\prime}/t = (l^\prime/l)^{3/2}$. From this, we can state that the square of time of revolution is proportional to the cube of the size of the orbit. This is *Kepler's third law.*
 
 ___
 # References
