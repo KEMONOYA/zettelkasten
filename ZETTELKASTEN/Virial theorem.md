@@ -6,7 +6,7 @@ Tags: [[Mechanics]]
 
 The *virial theorem* states that if the potential energy of a system $U$ is a homogeneous function of degree $k$, and motion of the system takes place in a finite region of space, with finite velocities, then the following relation holds:
 $$2\bar T = k\bar U,$$
-where $\bar T$ and $\bar U$ are the time-average values of the kinetic and potential energies respectively. See [[average value of a function of time]].
+where $\bar T$ and $\bar U$ are the time-average values of the [[kinetic energy]] and [[potential energy]] of the system respectively. See [[average value of a function of time]].
 
 From this relation, we can make some notable inferences about some systems. First notice that $\bar T + \bar U = \bar E = E$. Then the following holds:
 $$\bar U = 2E/(k+2),\hspace{0.7cm} \bar T=kE/(k+2),$$
