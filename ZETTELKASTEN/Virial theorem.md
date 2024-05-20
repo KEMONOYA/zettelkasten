@@ -12,7 +12,7 @@ From this relation, we can make some notable inferences about some systems. Firs
 $$\bar U = 2E/(k+2),\hspace{0.7cm} \bar T=kE/(k+2),$$
 which expresses $\bar U$ and $\bar T$ in terms of the total energy of the system $E$.
 
-From this, a few useful facts can be deduced. In the case of *small oscillations* ($k=2$), $\bar U = \bar T$. The mean values of the potential and kinetic energies are equal. In the case of Newtonian attraction, 
+From this, a few useful facts can be deduced. In the case of *small oscillations* ($k=2$), $\bar U = \bar T$. The mean values of the potential and kinetic energies are equal. In the case of a *Newtonian interaction* ($k=-1$), $E = -\bar T$, expressing the fact that the motion only takes place in a finite region if the energy is negative ($\bar T$ is evidently always positive).
 
 ___
 # References
