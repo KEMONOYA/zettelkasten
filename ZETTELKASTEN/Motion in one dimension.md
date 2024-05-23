@@ -12,7 +12,9 @@ In this case, the motion of the system is solvable in a general form, without ev
 $$\frac{1}{2}m\dot x^2 +U(x)=E.$$
 This is a first-order [[autonomous differential equation]], and hence can be solved by rewriting it as
 $$\frac{dx}{dt}=\sqrt{\frac{2}{m}(E-U(x))}$$
-and using [[Barrow's formula]] 
+and using [[Barrow's formula]] to get the solution
+$$t=\sqrt{\frac{1}{2}m}\int \frac{dx}{\sqrt{E-U(x)}}+\text{constant.}$$
+The two arbitrary constants in this solution are represented by the energy $E$ and the constant of integration.
 
 ___
 # References
