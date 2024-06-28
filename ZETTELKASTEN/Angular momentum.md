@@ -17,7 +17,7 @@ $$\sum\limits_a \frac{\partial L}{\partial \varphi_a} = 0.$$
 This, by the Euler-Lagrange equations, is the same as
 $$\frac{d}{dt}\sum\limits_a\frac{\partial L}{\partial \dot \varphi_a} = 0,$$
 which coincides with the form of the conservation of angular momentum. Hence, we can define the angular momentum as
-$$\textbf{M}_z = \sum\limits_a \frac{\partial L}{\partial \dot \varphi_a}.$$
+$$\textbf{M}_z \equiv \sum\limits_a \frac{\partial L}{\partial \dot \varphi_a}.$$
 
 ___
 # References
