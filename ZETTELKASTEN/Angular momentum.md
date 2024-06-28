@@ -12,7 +12,9 @@ The angular momentum (or components of it) may be conserved in systems that move
 
 The component of angular momentum about any axis may be extracted from the [[Lagrangian]] by differentiating it with respect to the corresponding angular velocity. For example, the component of angular momentum along the $z$-axis is
 $$\textbf M_{z} = \sum\limits_a\frac{\partial L}{\partial \dot \varphi_a},$$
-where $\varphi$ is the angle of rotation about the $z$-axis, and the sum is over all particles in the system.
+where $\varphi$ is the angle of rotation about the $z$-axis, and the sum is over all particles in the system. To see why this is, consider the following: if we're rotating about the $z$-axis, the angular velocities $\dot \varphi_a$ are unaffected, since their vectors point in the direction of the $z$-axis. Hence, the only quantities changing in the rotation are the angles $\varphi_a$. Therefore, we can state the conservation of angular momentum as
+$$\sum\limits_a \frac{\partial L}{\partial \varphi_a} = 0.$$
+
 
 ___
 # References
