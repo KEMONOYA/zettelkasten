@@ -14,12 +14,12 @@ To formalize the above, we state the properties of ICs as follows:
 4. Exactly one IC passes through every bundle point. This follows from the completeness property of [[preference]]s.
 
 ![[indiff_curves_1.png]]
-(The IC on which $C$ is )
-
-
 
 ![[indiff_curves_2.png]]
 
 ![[indiff_curves_3.png]]
+
 ___
 # References
+
+[🎞️ 2. Preferences and Utility Functions](https://www.youtube.com/watch?v=tCKk22kaZi4&list=PLUl4u3cNGP62oJSoqb4Rf-vZMGUBe59G-&index=2)
