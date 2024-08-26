@@ -1,4 +1,4 @@
-202408162323
+ 202408162323
 Status: #idea
 Tags: [[Microeconomics]]
 
