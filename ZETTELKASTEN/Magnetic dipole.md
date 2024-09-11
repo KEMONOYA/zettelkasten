@@ -4,11 +4,9 @@ Tags: [[Electromagnetism]], [[Magnetism]]
 
 # Magnetic dipole
 
->A **magentic dipole** is a pair of poles (visible or invisible) that generate a magnetic field.
+>A **magentic dipole** is, in plain terms, a 'very tiny magnet.' More precisely, a magnetic dipole is a source of a magnetic field (e.g. electric circuit, bar magnet), with its size taken to the zero limit.
 
-It's convenient to visualize a magnetic dipole as a small bar magnet, with the magnetic field lines pointing from the south pole to the north pole inside the magnet.
-
-Obviously a bar magnet is a magnetic dipole, but a 
+It's convenient to visualize a magnetic dipole as an infinitesimally small bar magnet, with the magnetic field lines pointing from the south pole to the north pole inside the magnet.
 
 ___
 # References
