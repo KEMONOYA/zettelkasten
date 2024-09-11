@@ -4,7 +4,7 @@ Tags: [[Circuit analysis]]
 
 # Resistance
 
-*Resistance* is defined to be the ratio of the [[voltage]] applied between two points, and the [[current]] that's generated from that voltage:
+*Resistance* is defined to be the ratio of the [[Voltage]] applied between two points, and the [[Current]] that's generated from that voltage:
 $$R= \frac{V}{I}.$$
 This statement is called *[[Ohm's law]]*.  Resistance is measured in $\text{Ohms}$, defined by
 $$1 \text{ Ohm} = \frac{1 \text{ Volt}}{1 \text{ Ampere}}.$$

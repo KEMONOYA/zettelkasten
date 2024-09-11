@@ -12,7 +12,7 @@ $$I_{\text avg} = \frac{\Delta Q}{\Delta t}.$$
 When the amount of charge passing through the slice of area varies with time ($Q = Q(t)$), the current is defined to be the amount of charge $dQ$ passing through the area in the infinitesimal time $dt$:
 $$I = \frac{dQ}{dt}.$$
 
-Current is generated in a conductor when there is a difference in potential energy— a [[voltage]]— between its terminals.
+Current is generated in a conductor when there is a difference in potential energy— a [[Voltage]]— between its terminals.
 
 ___
 # References

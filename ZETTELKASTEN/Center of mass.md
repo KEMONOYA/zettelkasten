@@ -15,7 +15,7 @@ Hence, the system as a whole would be at rest in a frame $K^\prime$ moving with 
 
 We also see here that the relation between the velocity of the system as a whole and its momentum is similar to that for a single particle of mass $\mu = \sum\limits m_a$. This result expresses the *additivity of mass*.
 
-Additionally, from this, we can see that the law of conservation of [[momentum]] is equivalent to stating that the center of mass of the system moves with uniform velocity in a closed system.
+Additionally, from this, we can see that the law of conservation of [[Momentum]] is equivalent to stating that the center of mass of the system moves with uniform velocity in a closed system.
 
 ___
 # References

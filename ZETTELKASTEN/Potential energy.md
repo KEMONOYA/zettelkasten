@@ -6,7 +6,7 @@ Tags: [[Mechanics]]
 
 A quantity that encodes (into the [[Lagrangian]]) the interactions between particles. It is a function of the coordinates of the particles only.
 
-The "energy" part of its name stems from the fact that it is one of the two quantities making up the [[energy]] of the system.
+The "energy" part of its name stems from the fact that it is one of the two quantities making up the [[Energy]] of the system.
 
 ___
 # References

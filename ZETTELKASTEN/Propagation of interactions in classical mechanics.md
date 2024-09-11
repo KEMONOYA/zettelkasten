@@ -6,7 +6,7 @@ Tags: [[Mechanics]]
 
 In classical mechanics, interactions are propagated instantaneously. We see this in action in the form of the potential energy in the lagrangian $L = T-U(\textbf r_{1}, r_{2}, ...)$, where a change in one of the particles' position instantly affects all the others. This fact is closely related to the foundations of classical mechanics, namely [[Galileo's relativity principle]] and the absoluteness of time. 
 
-If the velocity of propagation were finite, then by the [[law of composition of velocities in classical mechanics]] (which is based on the absoluteness of time), it would be different in different inertial frames. And keep in mind that the velocity of propagation is constant in a frame. Which means if it is measured to be 5m/s in one interation, then all other interactions in that frame propagate at 5m/s.
+If the velocity of propagation were finite, then by the [[Law of composition of velocities in classical mechanics]] (which is based on the absoluteness of time), it would be different in different inertial frames. And keep in mind that the velocity of propagation is constant in a frame. Which means if it is measured to be 5m/s in one interation, then all other interactions in that frame propagate at 5m/s.
 
 With this in mind, we see why this varying of propagation velocity across frames causes problems:
 

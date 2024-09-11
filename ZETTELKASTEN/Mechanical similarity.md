@@ -4,9 +4,9 @@ Tags: [[Mechanics]]
 
 # Mechanical similarity
 
-Mechanical similarity is a technique that applies to some mechanical systems, using which we can make inferences about the behavior of the system without even integrating the equations of motion. It is based on the fact that the equations of motion are unaffected under [[multiplication of the lagrangian by a constant]].
+Mechanical similarity is a technique that applies to some mechanical systems, using which we can make inferences about the behavior of the system without even integrating the equations of motion. It is based on the fact that the equations of motion are unaffected under [[Multiplication of the lagrangian by a constant]].
 
-Namely, mechanical similarity applies in systems where the [[potential energy]] $U$ is a homogeneous function. In such systems, it allows us to **determine *ratios between the mechanical quantites* (time taken, momentum, energy, etc.) of two paths in the system that are geometrically similar but different in size, *as powers of the ratio between the lengths* *of the two paths***. So for instance, in a system where a particle revolves around the origin in a circle in a fixed plane, mechanical similarity can be used to determine
+Namely, mechanical similarity applies in systems where the [[Potential energy]] $U$ is a homogeneous function. In such systems, it allows us to **determine *ratios between the mechanical quantites* (time taken, momentum, energy, etc.) of two paths in the system that are geometrically similar but different in size, *as powers of the ratio between the lengths* *of the two paths***. So for instance, in a system where a particle revolves around the origin in a circle in a fixed plane, mechanical similarity can be used to determine
 - a ratio between the time taken for a particle to revolve a circle of radius $r=1$ and another of radius $r=2$
 - a ratio between the angular momenta of those two particles, [at corresponding points on their paths, at corresponding times](obsidian://open?vault=Vaults&file=Monologue%2FZETTELKASTEN%2FConservation%20of%20proportions%20under%20scaling%20paths%20of%20homogeneous%20potentials)
 - a ratio between the linear momenta of the particles
