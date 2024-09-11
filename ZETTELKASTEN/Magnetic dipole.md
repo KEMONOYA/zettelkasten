@@ -1,6 +1,6 @@
 202409112314
 Status: #idea
-Tags: [[Electromagnetism]], [[Magnetism]]
+Tags: [[Magnetism]], [[Electromagnetism]]
 
 # Magnetic dipole
 
@@ -8,5 +8,9 @@ Tags: [[Electromagnetism]], [[Magnetism]]
 
 It's convenient to visualize a magnetic dipole as an infinitesimally small bar magnet, with the magnetic field lines pointing from the south pole to the north pole inside the magnet.
 
+![[magnetic_dipole.png]]
+
 ___
 # References
+[🎞️ Magnetic dipoles & dipole moment | Moving charges & magnetism | Physics | Khan Academy](https://www.youtube.com/watch?v=Vyuu7zRBUik)
+[🌐 Magnetic dipole - Wikipedia](https://en.wikipedia.org/wiki/Magnetic_dipole)
