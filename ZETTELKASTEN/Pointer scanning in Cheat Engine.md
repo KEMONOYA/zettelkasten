@@ -27,7 +27,12 @@ where `offset1` is the offset of the *pointer* to localPlayer from the module ba
 
 The first method discussed above is fairly accurate (as in, provides a logical, consistent pointer) when it does work, but the problem is that it's very likely that the path from the module base to your health variable is not as simple as the one discussed above. In other words, it might contain more than one offset, which means you'll have to trace back through multiple objects and offsets (and each one of these object/offset pairs, you don't even know their addresses for sure, so you'll be making several hypotheses at a time, which is a crazy number of possibilities to try out by hand.)
 
-A more general and reliable method is needed for finding pointers, then. For this purpose, we  
+A more general and reliable method is needed for finding pointers, then. For this purpose, we make use of Cheat Engine's pointer scanning feature. We can scan for pointers pointing to a given address in our address list by right-clicking it and choosing "Pointer scan for this address." **However,** an important note to make regarding how Cheat Engine handles pointer scanning. When you execute a pointer scan, Cheat Engine first generates a *pointer map*, which is a list containing **every single pointer in the game process's memory at the time of capture.** Then, CE narrows this list down to only pointers pointing to your desired address. The reason CE has to do this is because pointer paths might be complicated and go through several steps before reaching the desired address, so in order to make sure all such paths are accounted for, it has to scan everything.
+
+In our process of getting the pointer we want though, we're going to have to perform multiple scans to narrow down our results. But if we just use the scanning feature normally like discussed above, then CE will generate a pointer map every single time, which is very inefficient. What's a better way to go about scanning? Well, we generate the pointer map in advance, and tell CE to use that pointer map every time it performs the scan. We can do this easily by right clicking the address in our address list and clicking "Generate pointermap."
+Then whenever we scan, we can tick the checkbox labeled "Use saved pointermap" and load the one we generated in advance.
+
+With that out of the way, we now have a list of pointers pointing to the correct address, and we want to narrow it down further (at this point, we still have thousands of results, which is too many to work with). 
 
 ___
 # References
