@@ -22,6 +22,9 @@ where `offset1` is the offset of the *pointer* to localPlayer from the module ba
 **This method is in general not very effective, especially in newer games where getting from the static address to the health might be much more complicated than a single offset.**
 
 
-2. Using a single pointermap
+2. **Pointer scanning using a single pointermap (aka. the traditional method)**
+
+
+
 ___
 # References
