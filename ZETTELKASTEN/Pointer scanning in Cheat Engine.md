@@ -36,6 +36,12 @@ With that out of the way, we now have a list of pointers pointing to the correct
 First, we can click on "Pointer scanner" at the top and choose "Rescan memory - ...", this allows us to rescan the same list and narrow it down. We input the address (or value) we want to scan for again, and we can now add some extra options to eliminate some undesired results.
 1. **Use the "Base pointer must be in range" option.** If we know that the base address is going to start in 'ac_client.exe' for example, then we can indicate exactly where 'ac_client.exe' starts in the process's memory, and where it ends, to narrow the results down to just these. To find the address of 'ac_client.exe', we can go back to CE and click "Add Address Manually," then in place of the address use the following CE script: `getAddress('ac_client.exe')`. This will give the start address of the base module. To get the end address, we add another address with the script: `getAddress('ac_client.exe') + getModuleSize('ac_client.exe')`.
 2. **Specify the ending offset.** We can usually, by using the "Find out what accesses this address" button, find out what the final offset of our variable is going to be. For instance, in the image above, we see it's either going to be `F8` or `04`. We can specify this in the scan settings so we narrow down further.
-3. **Restart the game.** When we restart the game, some pointers that initially pointed to the correct address by mere chance will have changed, but the valid pointers stay valid. We can use this fact to reduce our list further, by restarting the game (keeping the list open), and rescanning once it's open again, specifying the new address (or value) of the health variable, and the final offset (the base pointer range )
+3. **Restart the game.** When we restart the game, some pointers that initially pointed to the correct address by mere chance will have changed, but the valid pointers stay valid. We can use this fact to reduce our list further, by restarting the game (keeping the list open), and rescanning once it's open again, specifying the new address (or value) of the health variable, and the final offset. (You no longer need specify the base pointer range because it's already been narrowed down to only 'ac_client.exe', it's a one-time thing).
+
+Repeating this refinement of the list over and over will leave us with maybe a couple hundred results in the end. That's about as good as this scanning method can do. There is still a way to refine the list further however, which is discussed in the next method.
+
+
+3. 
+
 ___
 # References
