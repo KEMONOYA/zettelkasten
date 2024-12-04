@@ -47,8 +47,12 @@ Despite the name, this method is very similar to the previous one, and is even q
 1. Generate a pointermap
 2. Restart the game
 3. Generate a second pointermap
-4. Compare the two pointermaps to keep only the unchanged pointers between the t pointing to our desired address (taking the intersection, basically)
+4. Compare the two pointermaps to keep only the pointers that are common between the two, and point to the health address in both pointermaps, wherever it may be (will probably be different in the first and second cases, since we restarted the game, but the pointer's *static* address is the same)
 
+Here's how to use this method, in more detail:
+First, we find a (dynamic) address for our health variable. Next, we generate a pointermap. Now we don't scan right away, we just restart the game, which causes a lot of the pointers in the game's memory to change what they're pointing to, most of them will now point to random stuff. (**We know however that the consistent reliable pointer that we're looking for will point to the new health address again, wherever it may be**). 
+
+Anyways, having loaded the game again, we again scan for the (dynamic) health address, which will be different than the first. We again right-click it and generate a new pointermap. Now, we right-click it again and choose to "Pointer scan for this address." Here's where the magic happens. We choose to use a saved pointermap, and pick the second pointermap we generated. But we also choose to compare to "**Compare results with other saved pointermap(s).**" 
 
 ___
 # References
