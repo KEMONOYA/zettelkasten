@@ -66,4 +66,4 @@ ___
 # References
 [🎞️ How To Find Offsets, Entity Addresses & Pointers](https://www.youtube.com/watch?v=YaFlh2pIKAg&feature=youtu.be)
 [🎞️ Cheat Engine How to Pointer Scan with Pointermaps 🚨](https://www.youtube.com/watch?v=nQ2F2iW80Fk)
-[🤖 Pointermap Overview CE](https://chatgpt.com/c/674f8a2d-95d4-800d-96f3-616a3080e00d)
+[🤖 Pointermap **Overview** CE](https://chatgpt.com/c/674f8a2d-95d4-800d-96f3-616a3080e00d)
