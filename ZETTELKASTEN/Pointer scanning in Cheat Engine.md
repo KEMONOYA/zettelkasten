@@ -52,7 +52,18 @@ Despite the name, this method is very similar to the previous one, and is even q
 Here's how to use this method, in more detail:
 First, we find a (dynamic) address for our health variable. Next, we generate a pointermap. Now we don't scan right away, we just restart the game, which causes a lot of the pointers in the game's memory to change what they're pointing to, most of them will now point to random stuff. (**We know however that the consistent reliable pointer that we're looking for will point to the new health address again, wherever it may be**). 
 
-Anyways, having loaded the game again, we again scan for the (dynamic) health address, which will be different than the first. We again right-click it and generate a new pointermap. Now, we right-click it again and choose to "Pointer scan for this address." Here's where the magic happens. We choose to use a saved pointermap, and pick the second pointermap we generated. But we also choose to compare to "**Compare results with other saved pointermap(s).**" 
+Anyways, having loaded the game again, we again scan for the (dynamic) health address, which will be different than the first. We again right-click it and generate a new pointermap. Now, we right-click it again and choose to "Pointer scan for this address." Here's where the magic happens. We choose to use a saved pointermap, and pick the second pointermap we generated. But we also choose to compare to "**Compare results with other saved pointermap(s).**" We then load the first pointermap we generated, and let it scan for the *first* health address we got before we restarted the game. 
+
+This basically scans `Pointermap2` for `HealthAddr2`, and scans `Pointermap1` for `HealthAddr1`, and then takes the intersection of the two resulting tables. This works because whatever reliable pointers we had in `Pointermap1` pointed to the health address at the time, `HealthAddr1`, and since they're reliable, they will point to `HealthAddr2` once we've restarted the game, which is reflected in `Pointermap2`. So they will be the pointers that show up in both scans, and hence the intersection.
+
+This method generally generates much fewer and more accurate results than the previous method, and in less steps, so it is preferred. But note that we have no reason to stop here, and we can narrow down the results further using the same filters we used in the previous method. In particular, we can
+1. Specify the ending offset
+2. Specify the range of the base address (the base module)
+
+Refer back to the previous method for instructions on how to do these.
 
 ___
 # References
+[🎞️ How To Find Offsets, Entity Addresses & Pointers](https://www.youtube.com/watch?v=YaFlh2pIKAg&feature=youtu.be)
+[🎞️ Cheat Engine How to Pointer Scan with Pointermaps 🚨](https://www.youtube.com/watch?v=nQ2F2iW80Fk)
+[🤖 Pointermap Overview CE](https://chatgpt.com/c/674f8a2d-95d4-800d-96f3-616a3080e00d)
