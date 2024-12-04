@@ -41,7 +41,14 @@ First, we can click on "Pointer scanner" at the top and choose "Rescan memory - 
 Repeating this refinement of the list over and over will leave us with maybe a couple hundred results in the end. That's about as good as this scanning method can do. There is still a way to refine the list further however, which is discussed in the next method.
 
 
-3. 
+3. **Use two pointermaps and compare (aka. the advanced method)**
+
+Despite the name, this method is very similar to the previous one, and is even quicker to perform. The idea of this method is to:
+1. Generate a pointermap
+2. Restart the game
+3. Generate a second pointermap
+4. Compare the two pointermaps to keep only the unchanged pointers between the t pointing to our desired address (taking the intersection, basically)
+
 
 ___
 # References
