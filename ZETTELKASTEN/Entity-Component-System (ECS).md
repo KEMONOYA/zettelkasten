@@ -12,7 +12,9 @@ In ECS, an entity represents any kind of object in the game, such as a character
 
 2. **Components**
 
-These are what 
+These are what store all information about the entity, including where it is, what it lo
 
 ___
 # References
+[🌐 Game Engine Programming 009 - Identifiers with index and generation parts | C++ Game Engine](https://www.youtube.com/watch?v=rT599NDbkN4&list=PLU2nPsAdxKWQYxkmQ3TdbLsyc1l2j25XM&index=9)
+[🌐 Data-Oriented Design: The Future of Game Development](https://www.youtube.com/watch?v=wG2Y42qArHY)
