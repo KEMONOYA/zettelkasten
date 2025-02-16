@@ -12,7 +12,15 @@ In ECS, an entity represents any kind of object in the game, such as a character
 
 2. **Components**
 
-These are what store all information about the entity, including where it is, what it lo
+These are what store all information about the entity, including:
+- where it is, how it's oriented and how big it is (Transform component)
+- what it looks like (Mesh/Material component)
+- what its physical properties are (Rigidbody component)
+- etc.
+
+1. **Systems**
+
+These are what operate on the components discussed above, and make changes to the entities. For instance, if all entities are affected by gravity, a *System* will loop over all transform components each frame and update their positions accordingly to simulate gravitational pull.
 
 ___
 # References
