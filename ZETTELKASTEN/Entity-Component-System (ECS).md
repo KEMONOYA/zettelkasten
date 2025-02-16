@@ -4,7 +4,7 @@ Tags: [[Game engine]]
 
 # Entity-Component-System (ECS)
 
-**Entity-Component-System (ECS)** is a design pattern for game engines that is [data-oriented](Data-oriented%20design.md), and as the name suggests, handles storing and updating game entities using three different types of data; entities, components and systems. Let's look at what role each of them plays and how they interact with one another:
+**Entity-Component-System (ECS)** is a design pattern for game engines that is [data-oriented](Data-oriented%20design.md), so favors memory-efficiency, and as the name suggests, handles storing and updating game entities using three different parts; entities, components and systems. Let's look at what role each of them plays and how they interact with one another:
 
 1. **Entities**
 
