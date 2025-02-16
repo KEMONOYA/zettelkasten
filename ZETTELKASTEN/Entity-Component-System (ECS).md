@@ -22,6 +22,13 @@ These are what store all information about the entity, including:
 
 These are what operate on the components discussed above, and make changes to the entities. For instance, if all entities are affected by gravity, a *System* will loop over all transform components each frame and update their positions accordingly to simulate gravitational pull.
 
+
+**How are these parts implemented?**
+
+In accordance with data-oriented design, we create an array for each type of component, so that components of the same type are packed together in memory. This helps significantly when we have a System operating on all instances of a specific type of component, like the gravity system mentioned above, since several Transform components will be loaded in the CPU's cache together, making the process very efficient. 
+
+*Entities* are simply indices used to refer to components in their arrays. So, for example, the entity with index 024 will have the Transform component stored at index 024 in the Transforms array, together with the Mesh component stored at 024 in the Meshes array, and so on.
+
 ___
 # References
 [🌐 Game Engine Programming 009 - Identifiers with index and generation parts | C++ Game Engine](https://www.youtube.com/watch?v=rT599NDbkN4&list=PLU2nPsAdxKWQYxkmQ3TdbLsyc1l2j25XM&index=9)
