@@ -1,6 +1,6 @@
 202405031256
 Status: #idea
-Tags: [[Basics]]
+Tags: [[Math basics]]
 
 # Euler's homogeneous function theorem
 

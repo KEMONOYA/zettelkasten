@@ -1,6 +1,6 @@
 202405202242
 Status: #idea
-Tags: [[Basics]]
+Tags: [[Math basics]]
 
 # Average value of a function of time
 
