@@ -18,7 +18,7 @@ These are what store all information about the entity, including:
 - what its physical properties are (Rigidbody component)
 - etc.
 
-1. **Systems**
+3. **Systems**
 
 These are what operate on the components discussed above, and make changes to the entities. For instance, if all entities are affected by gravity, a *System* will loop over all transform components each frame and update their positions accordingly to simulate gravitational pull.
 
