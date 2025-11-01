@@ -4,7 +4,8 @@ Tags: [[Graphics programming]]
 
 # Vertex shader
 
-> The *vertex shader* is the first part of the [[graphics pipeline]]. Its purpose is the take in 3D coordinate data and ??? (convert it into different 3D coordinates?)
+> The *vertex shader* is the first part of the [[graphics pipeline]]. It takes as input a single [[vertex]]. 
+> Its main purpose is to ???
 
 
 
