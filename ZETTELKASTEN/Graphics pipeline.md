@@ -8,7 +8,7 @@ Tags: [[Graphics programming]]
 ![[graphics_pipeline.png]]
 * *Some of these (marked in blue) are configurable by the developer, allowing full control over the details of how they operate.* 
 
-Each of these steps is highly specialized (each performing only one specific function), and the programs actually carrying out each of these functions are called [[shader]]s.
+Each step takes as input the output of the step before it, and similarly sends its own output the next step. Each of these steps is highly specialized (each performing only one specific function), and the programs actually carrying out each of these functions are called [[shader]]s. 
 
 ___
 # References
