@@ -8,7 +8,7 @@ Tags: [[Graphics programming]]
 ![[graphics_pipeline.png]]
 * *Some of these (marked in blue) are configurable by the developer, allowing full control over the details of how they operate.* 
 
-As input to the graphics pipeline, we pass in an array of vertices (this array is called here **Vertex Data**). A *vertex* is a set of data describing a 3D point. A vertex's data is represented using *vertex attributes* and may contain **many** different kinds of data; 3D position and vertex color are two simple examples.
+As input to the graphics pipeline, we pass in an array of [[vertex]]es (this array is called here **Vertex Data**).
 
 Each step takes as input the output of the step before it, and similarly sends its own output the next step. Each of these steps is highly specialized (each performing only one specific function), and the programs actually carrying out each of these functions are called [[shader]]s. 
 
