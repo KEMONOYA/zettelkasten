@@ -8,7 +8,7 @@ Tags: [[Graphics programming]]
 
 When we want to use the data inside a *VBO* as inputs to the [[vertex shader]], we bind it to the `GL_ARRAY_BUFFER` target using `glBindBuffer(GL_ARRAY_BUFFER, vbo1_ID)`. Inside OpenGL's internal state, it has a state variable storing "which buffer object is currently bound for the `GL_ARRAY_BUFFER` target," and it is this currently bound buffer object's contents that are linked to vertex attributes in the GPU when using `glVertexAttribPointer()`. 
 
-Switching out the currently bound buffer in the internal state using e.g. `glBindBuffer(GL_ARRAY_BUFFER, vbo2_ID)` does **not** deallocate `vbo1`'s part of the GPU memory, it simply tells OpenGL to now look at `vbo2` instead whenever performing an operation that uses the currently bound buffer. The switch back can be made at any point.
+Switching out the currently bound buffer in the internal state using e.g. `glBindBuffer(GL_ARRAY_BUFFER, vbo2_ID)` does **not** deallocate `vbo1`'s part of the GPU memory, it simply tells OpenGL to now look at `vbo2`'s memory instead whenever performing an operation that uses the currently bound buffer. The switch back can be made at any point.
 
 ___
 # References
