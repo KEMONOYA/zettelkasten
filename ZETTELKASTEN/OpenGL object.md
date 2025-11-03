@@ -15,11 +15,13 @@ That means at any given moment, it stores an internal configuration (a *state*) 
 - Which texture is bound to texture unit 0?
 - Which buffer provides vertex data?
 - What blending mode or depth test is enabled?
-#### Every command OpenGL carries out is either:
+
+Switching out parts of this internal state is done by creating an *OpenGL object* representing that subset, binding it as the current bound object of its specific type, then settings its values to whatever we want. This switches out the old settings, and the switch back can be done at any time by changing the currently bound object back to the old one. 
+#### So every command OpenGL carries out is either:
 1. change some part of the state (e.g. by binding a different object, thereby changing a part of the behavior of future drawing functions)
 2. use the current state to perform an operation (e.g. drawing geometry)
 
-**So, an *OpenGL object* simply represents a subset of related state variables, and allows us to modify those variables.**
+**So, an *OpenGL object* simply represents a subset of related state variables, and allows us to modify those variables, for plugging in to the internal state whenever.**
 ### Examples of objects include:
 - A **buffer object** (like a VBO or EBO) represents the state of a block of GPU memory storing vertex or index data.
 - A **texture object** represents all the parameters and data that define a texture (its image, filtering modes, wrapping, etc).
