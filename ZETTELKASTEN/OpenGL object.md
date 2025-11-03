@@ -6,6 +6,7 @@ Tags: [[Graphics programming]]
 
 > An *OpenGL object* is a collection of options (state variables) that encapusulates a subset of OpenGL's state.
 
+To understand this definition fully, we have to understand that **OpenGL is a state machine**.
 
 
 ___
