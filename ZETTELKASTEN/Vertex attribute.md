@@ -38,7 +38,16 @@ As we configured above, we define the vertices as triplets of values, each descr
 
 #### 3. Link vertex data to vertex attributes.
 
-Now we finally link the vertex attributes to the vertex data, by telling OpenGL how it should interpret the data inside the current [[vertex buffer object]]. We do this using the method `glVertexAttribPointer()`.
+Now we finally link the vertex attributes to the vertex data, by telling OpenGL how it should interpret the data inside the current [[vertex buffer object]] (*VBO*). We do this using the method
+```c++
+glVertexAttribPointer(GLuint index, GLint size, GLenum type, GLboolean normalized, GLsizei stride, const GLvoid* pointer)
+```
+
+This method tells each attribute where to look for its values in the current *VBO*. The parameters it needs are as follows:
+- `GLuint index`: the index of the attribute we want to link in the vertex shader. Recall above how we specified `layout (location = 0)` for the position, so if we want to assign the position values, we'd use index 0.
+- `GLint size`: specifies how many components (elements of the *VBO* array) this vertex attribute expects; must be 1, 2, 3 or 4. So for instance, our 
+
+
 ___
 # References
 [🌐 LearnOpenGL - Hello Triangle](https://learnopengl.com/Getting-started/Hello-Triangle)
