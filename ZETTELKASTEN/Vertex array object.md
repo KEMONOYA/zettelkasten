@@ -12,7 +12,7 @@ To be more precise, a *VAO* stores:
 - Vertex buffer objects associated with vertex attributes by calls to `glVertexAttribPointer`.
 - *Additionally*, it keeps track of the *last* [[element buffer object]] bound before the *VAO* itself is unbound.
 
-With this, we are able to switch between different vertex attribute configurations, that read from different *VBO*s (and optionally, from different *EBO*s), simply by binding different *VAO*s. See the below figures for an illustration of this.
+With this, we are able to switch between different vertex attribute configurations, that read from different *VBO*s (and optionally, from different *EBO*s), simply by binding different *VAO*s. See the figures below for an illustration of this.
 ![[vertex_array_objects.png]]
 *Notice how each VAO has different attributes, that read from different VBOs, in a different format.*
 ![[vertex_array_objects_ebo.png]]
