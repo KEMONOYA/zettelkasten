@@ -6,9 +6,9 @@ Tags: [[Graphics programming]]
 
 > An _OpenGL object_ is a container that encapsulates a related subset of OpenGL’s state variables, allowing that subset of the GPU state to be stored, modified, and reused.
 
-Generating any *OpenGL object* using `glGenObject(size, &ids)` will store the IDs of the generated objects in the 
+Generating any *OpenGL object* using `glGenObject(size, &ids)` will store the ID(s) of the generated object(s) in the `GLuint ids[]` array (or just `GLuint id` if generating one object).
 
-To understand this definition fully, we have to understand that **OpenGL is a state machine**.
+To understand the above definition fully, we have to understand that **OpenGL is a state machine**.
 That means at any given moment, it stores an internal configuration (a *state*) that dictates how the drawing functions in the GPU will behave.
 #### Examples of these state variables are:
 - Which shader program is active?
