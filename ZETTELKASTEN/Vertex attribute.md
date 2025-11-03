@@ -10,7 +10,32 @@ When defining vertex data in code, which runs on the CPU, to then later be passe
 
 For this reason, we have to specify for the GPU a 'model' of sorts for what it should expect vertex data to be formatted like so it knows how to read it.
 
+## Practical example
+Here's an example of how we would actually do all of this in code.
 
+1. Define the needed attributes as inputs to the [[vertex shader]].
+```c++
+const char *vertexShaderSource = "#version 330 core\n"
+    "layout (location = 0) in vec3 aPos;\n"
+    "void main()\n"
+    "{\n"
+    "   gl_Position = vec4(aPos.x, aPos.y, aPos.z, 1.0);\n"
+    "}\0";
+```
+Here it can be seen we defined only one attribute (input) `vec3 aPos`, the 3D position of the vertex. This means we expect each vertex in the vertex data to be a 3-tuple describing only its position. Notice also the `layout (location = 0)` preceding the attribute. This assigns it an index of 0 amongst the attributes defined in the GPU, which we will later use to refer to it by when assigning values to attributes.
 
+2. Define your vertex data.
+```c++
+GLfloat vertices[] =
+{
+	-0.5f, -0.5f, 0.0f,
+	 0.5f, -0.5f, 0.0f,
+	 0.0f,  0.5f, 0.0f
+};
+```
+As we configured above, we define the vertices as triplets of values, each describing the 3D position of the vertex. Notice that until we actually link these values to the attributes, this array has no meaning or interpretation, and is nothing more than a list of floats.
+
+3. 
 ___
 # References
+[🌐 LearnOpenGL - Hello Triangle](https://learnopengl.com/Getting-started/Hello-Triangle)
