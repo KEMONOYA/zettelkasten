@@ -45,8 +45,10 @@ glVertexAttribPointer(GLuint index, GLint size, GLenum type, GLboolean normalize
 
 This method tells each attribute where to look for its values in the current *VBO*. The parameters it needs are as follows:
 - `GLuint index`: the index of the attribute we want to link in the vertex shader. Recall above how we specified `layout (location = 0)` for the position, so if we want to assign the position values, we'd use index 0.
-- `GLint size`: specifies how many components (elements of the *VBO* array) this vertex attribute expects; must be 1, 2, 3 or 4. So for instance, our 
-
+- `GLint size`: specifies how many components (elements of the *VBO* array) this vertex attribute should take; must be 1, 2, 3 or 4. So for instance, our 3D position attribute, being a `vec3` would expect three floats, so size = 3.
+- `GLenum type`: the data type it should expect for the values of its components. In our case, that would be a float, which in this enum is specified by `GL_FLOAT`.
+- `GLboolean normalized`: specifies whether the data should be normalized, i.e. clamped to \[-1,1] for signed values, or \[0,1] for unsigned values.
+- `GLsizei stride`: specifies the distance between the *start* of one instance of this vertex attribute and the *start* of the next instance. So if we have 2 vertices defined in the *VBO*, this specifies how much to a pointer from the
 
 ___
 # References
