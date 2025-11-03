@@ -48,7 +48,8 @@ This method tells each attribute where to look for its values in the current *VB
 - `GLint size`: specifies how many components (elements of the *VBO* array) this vertex attribute should take; must be 1, 2, 3 or 4. So for instance, our 3D position attribute, being a `vec3` would expect three floats, so size = 3.
 - `GLenum type`: the data type it should expect for the values of its components. In our case, that would be a float, which in this enum is specified by `GL_FLOAT`.
 - `GLboolean normalized`: specifies whether the data should be normalized, i.e. clamped to \[-1,1] for signed values, or \[0,1] for unsigned values.
-- `GLsizei stride`: specifies the distance between the *start* of one instance of this vertex attribute and the *start* of the next instance. So if we have 2 vertices defined in the *VBO*, this specifies how much to a pointer from the
+- `GLsizei stride`: specifies the distance between the *start* of one instance of this vertex attribute and the *start* of the next instance. So if we have 2 vertices defined in the *VBO*, this specifies how much to move a pointer from the start of the position attribute of one vertex to get to the position attribute of the next.
+- `GLvoid* pointer`: specifies an offset (*in bytes) from the start of the *VBO* array to get to the first instance of this attribute in the first vertex defined. Note that whatever number you set this to, you need to cast it into a `void*` first for the function to accept it. So if I wanted 4 bytes, I'd do `(void*) 4`.
 
 ___
 # References
