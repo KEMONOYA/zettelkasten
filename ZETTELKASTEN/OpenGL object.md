@@ -4,7 +4,7 @@ Tags: [[Graphics programming]]
 
 # OpenGL object
 
-> An _OpenGL object_ is a container that encapsulates a related subset of OpenGL’s state variables, allowing that subset of the GPU state to be stored, modified, replaced and reused.
+> An _OpenGL object_ is a container that encapsulates an instance of a related subset of OpenGL’s state variables, allowing that subset of the GPU state to be stored, modified, replaced and reused.
 
 Generating any *OpenGL object* using `glGenObject(size, &ids)` will store the ID(s) of the generated object(s) in the `GLuint ids[]` array (or just `GLuint id` if generating one object).
 
@@ -17,6 +17,7 @@ That means at any given moment, it stores an internal configuration (a *state*) 
 - What blending mode or depth test is enabled?
 
 Switching out parts of this internal state is done by creating an *OpenGL object* representing that subset, binding it as the currently bound object of its specific type, then setting its values to whatever we want. This switches out the old settings, and the switch back can be done at any time by changing the currently bound object back to the old one.
+
 (*Note: **binding** an object means telling OpenGL's context to point its internal state to that object's instance of the state variables*)
 #### So in essence, every command OpenGL carries out is either:
 1. change some part of the state (e.g. by binding a different object, thereby changing a part of the behavior of future drawing functions)
