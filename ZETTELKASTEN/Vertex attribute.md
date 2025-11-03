@@ -34,7 +34,7 @@ GLfloat vertices[] =
 	 0.0f,  0.5f, 0.0f
 };
 ```
-As we configured above, we define the vertices as triplets of values, each describing the 3D position of the vertex. Notice that until we actually link these values to the attributes, this array has no meaning or interpretation (in fact, nothing even specifies that these are *triplets* yet), and is nothing more than a list of floats.
+As we configured above, we define the vertices as triplets of values, each describing the 3D position of the vertex. Notice that until we actually link these values to the attributes, this array has no meaning or interpretation (in fact, nothing even specifies that these are *triplets* yet), and is nothing more than a list of floats. This array's data will be loaded into a [[vertex buffer object]] and bound to the `GL_ARRAY_BUFFER` slot, so that any time in the future we refer to the curre
 
 #### 3. Link vertex data to vertex attributes.
 
@@ -50,6 +50,8 @@ This method tells each attribute where to look for its values in the current *VB
 - `GLboolean normalized`: specifies whether the data should be normalized, i.e. clamped to \[-1,1] for signed values, or \[0,1] for unsigned values.
 - `GLsizei stride`: specifies the distance between the *start* of one instance of this vertex attribute and the *start* of the next instance. So if we have 2 vertices defined in the *VBO*, this specifies how much to move a pointer from the start of the position attribute of one vertex to get to the position attribute of the next.
 - `GLvoid* pointer`: specifies an offset (*in bytes) from the start of the *VBO* array to get to the first instance of this attribute in the first vertex defined. Note that whatever number you set this to, you need to cast it into a `void*` first for the function to accept it. So if I wanted 4 bytes, I'd do `(void*) 4`.
+
+Now that we know what it does, let's apply it to our case, and link the `vec3 aPos` attribute to the data we have
 
 ___
 # References
