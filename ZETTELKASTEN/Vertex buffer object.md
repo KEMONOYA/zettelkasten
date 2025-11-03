@@ -6,7 +6,7 @@ Tags: [[Graphics programming]]
 
 > A *vertex buffer object* (*VBO*) is a type of [[OpenGL object]] that represents a region of the GPU's memory which holds [[vertex]] data. Storing vertex data in a *VBO* allows the GPU (e.g. the [[vertex shader]]) to access this data quickly and efficiently, instead of waiting for it to be sent from the CPU, which takes a considerable amount of time.
 
-
+When we want to use the data inside a *VBO* as inputs to the [[vertex shader]], we bind it to the `GL_ARRAY_BUFFER` target using `glBindBuffer(GL_ARRAY_BUFFER, vboID)`. Inside OpenGL's internal state, it has a state variable storing "which buffer object is currently bound for the `GL_ARRAY_BUFFER` target,"
 
 ___
 # References
