@@ -34,7 +34,7 @@ GLfloat vertices[] =
 	 0.0f,  0.5f, 0.0f
 };
 ```
-As we configured above, we define the vertices as triplets of values, each describing the 3D position of the vertex. Notice that until we actually link these values to the attributes, this array has no meaning or interpretation (in fact, nothing even specifies that these are *triplets* yet), and is nothing more than a list of floats. This array's data will be loaded into a [[vertex buffer object]] and bound to the `GL_ARRAY_BUFFER` slot, so that any time in the future we refer to the curre
+As we configured above, we define the vertices as triplets of values, each describing the 3D position of the vertex. Notice that until we actually link these values to the attributes, this array has no meaning or interpretation (in fact, nothing even specifies that these are *triplets* yet), and is nothing more than a list of floats. This array's data will be loaded into a [[vertex buffer object]] which is then bound to the `GL_ARRAY_BUFFER` slot, so that any time in the future we refer to the currently bound `GL_ARRAY_BUFFER` we'll be working with our *VBO*. 
 
 #### 3. Link vertex data to vertex attributes.
 
@@ -51,7 +51,17 @@ This method tells each attribute where to look for its values in the current *VB
 - `GLsizei stride`: specifies the distance between the *start* of one instance of this vertex attribute and the *start* of the next instance. So if we have 2 vertices defined in the *VBO*, this specifies how much to move a pointer from the start of the position attribute of one vertex to get to the position attribute of the next.
 - `GLvoid* pointer`: specifies an offset (*in bytes) from the start of the *VBO* array to get to the first instance of this attribute in the first vertex defined. Note that whatever number you set this to, you need to cast it into a `void*` first for the function to accept it. So if I wanted 4 bytes, I'd do `(void*) 4`.
 
-Now that we know what it does, let's apply it to our case, and link the `vec3 aPos` attribute to the data we have
+**One more thing to notice** is that we never specified here the array from which it should read our vertex data in the first place. This is because vertex attributes take their values from the *VBO* bound to `GL_ARRAY_BUFFER` at the time of calling `glVertexAttribPointer()` (*see the end of step 2*).
+
+Now that we know what it does, let's apply it to our case, and link the `vec3 aPos` attribute to the data we have in the *VBO* currently bound to `GL_ARRAY_BUFFER`:
+```c++
+glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
+glEnableVertexAttribArray(0);
+```
+Note that **vertex attributes are disabled by default**, so we call `glEnableVertexAttribArray()` with the index of the `aPos` attribute to enable it.
+
+With this, we have formatted our vertex buffer data correctly, and it should now look like this from the perspective of the GPU:
+![[vertex_attribute_pointer.png]]
 
 ___
 # References
