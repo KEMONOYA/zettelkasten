@@ -12,8 +12,8 @@ For this reason, we have to specify for the GPU a 'model' of sorts for what it s
 
 ## Practical example
 Here's an example of how we would actually do all of this in code.
+#### 1. Define the needed attributes as inputs to the [[vertex shader]].
 
-1. Define the needed attributes as inputs to the [[vertex shader]].
 ```c++
 const char *vertexShaderSource = "#version 330 core\n"
     "layout (location = 0) in vec3 aPos;\n"
@@ -24,7 +24,8 @@ const char *vertexShaderSource = "#version 330 core\n"
 ```
 Here it can be seen we defined only one attribute (input) `vec3 aPos`, the 3D position of the vertex. This means we expect each vertex in the vertex data to be a 3-tuple describing only its position. Notice also the `layout (location = 0)` preceding the attribute. This assigns it an index of 0 amongst the attributes defined in the GPU, which we will later use to refer to it by when assigning values to attributes.
 
-2. Define your vertex data.
+#### 2. Define your vertex data.
+
 ```c++
 GLfloat vertices[] =
 {
@@ -33,9 +34,11 @@ GLfloat vertices[] =
 	 0.0f,  0.5f, 0.0f
 };
 ```
-As we configured above, we define the vertices as triplets of values, each describing the 3D position of the vertex. Notice that until we actually link these values to the attributes, this array has no meaning or interpretation, and is nothing more than a list of floats.
+As we configured above, we define the vertices as triplets of values, each describing the 3D position of the vertex. Notice that until we actually link these values to the attributes, this array has no meaning or interpretation (in fact, nothing even specifies that these are *triplets* yet), and is nothing more than a list of floats.
 
-3. 
+#### 3. Link vertex data to vertex attributes.
+
+Now we finally link the vertex attributes to the vertex data, by telling OpenGL how it should interpret the data inside the current [[vertex buffer object]]. We do this using the method `glVertexAttribPointer()`.
 ___
 # References
 [🌐 LearnOpenGL - Hello Triangle](https://learnopengl.com/Getting-started/Hello-Triangle)
