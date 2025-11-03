@@ -7,7 +7,6 @@ Tags: [[Graphics programming]]
 > An *element buffer object* (*EBO, also sometimes called an **index buffer object, IBO***) is an [[OpenGL object]] that manages a part of the GPU's memory that stores indices. These indices refer to vertices in a *VBO*, and are used when drawing using `glDrawElements()` as opposed to `glDrawArrays()`.
 
 The main use of *EBO*s is to eliminate repeated vertices in the vertex data, by defining each vertex only once, and describing their drawing order by index rather than the vertices themselves.
-
 ### Example for illustration
 Imagine we want to draw a rectangle made up of two triangles. While `glDrawArrays()` would draw the vertices according to this array:
 ```c++
@@ -24,7 +23,7 @@ float vertices[] = {
 ```
 We can see two vertices here are repeated (top-left, bottom-right) and will take up extra space in the *VBO*.
 
-Instead what we can do is define a vertices array with no duplicates:
+Instead what we can do is define a vertices array with no duplicates (still stored in a *VBO* as  you normally would):
 ```c++
 float vertices[] = {
      0.5f,  0.5f, 0.0f,  // top right
@@ -49,6 +48,8 @@ glGenBuffers(1, &EBO);
 glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
 glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW); 
 ```
+
+All other initialization involving *VBO*s and *VAO*s is done as you normally would. 
 
 Finally, during the main loop, instead of drawing using `glDrawArrays()`, we use `glDrawElements(mode, count, type, indices)`:
 ```c++
