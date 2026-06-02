@@ -7,6 +7,8 @@ Tags: [[Cybersecurity]]
 
 SMB enables shared access to files, printers, and other resources between nodes on a network. It operates on a **client-server model**, where any node in a network can act as a client, a server, or both simulatenously, depending on the use-case. In all such cases, the client makes a request and the server responds.
 
+SMB is primarily a Windows protocol, but Linux implementations like Samba do exist.
+
 ## Shares
 
 A **share** is a folder (or resource) on a server that has been explicitly made accessible over the network. It's the unit of access in SMB — you don't connect to a server's whole filesystem, you connect to a specific share on it.
@@ -39,5 +41,8 @@ C:\Users\              →   \\SERVER\Users
 5. **Operate on files** — Client sends requests (read, write, get, delete, etc.)
 6. **Terminate connection** — Session and connection are closed cleanly
 
+
 ___
 # References
+[🤖 SMB Protocol Explained - Claude](https://claude.ai/share/d3744b42-7e4b-40bc-b1bd-397e9ead1d82)
+[🌐 SMB Enumeration Cheatsheet](https://0xdf.gitlab.io/cheatsheets/smb-enum#background)
