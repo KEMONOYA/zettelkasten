@@ -1,0 +1,100 @@
+{
+  "collapse-filter": true,
+  "search": "-path:FILES -path:REFERENCES  -path:TEMPLATES -file:HEAT -file:README",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "line:(\"[[Mechanics]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 5429216
+      }
+    },
+    {
+      "query": "line:(\"[[Math basics]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 12843774
+      }
+    },
+    {
+      "query": "line:(\"[[Circuit analysis]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 16773468
+      }
+    },
+    {
+      "query": "line:(\"[[Electricity]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
+      }
+    },
+    {
+      "query": "line:(\"[[Magnetism]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "line:(\"[[Graphics programming]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 1693184
+      }
+    },
+    {
+      "query": "line:(\"[[Differential equations]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "line:(\"[[Differential geometry]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "line:(\"[[Software engineering]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
+      "query": "line:(\"[[Game engine]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "line:(\"[[Cybersecurity]]\")",
+      "color": {
+        "a": 1,
+        "rgb": 1179392
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.6,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 11.2474012474012,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4444444444444436,
+  "close": false
+}
